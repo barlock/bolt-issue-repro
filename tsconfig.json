@@ -1,0 +1,18 @@
+{
+//  "ts-node": {
+//    "require": ["tsconfig-paths/register"],
+//    "compilerOptions": {
+//      "module": "commonjs"
+//    }
+//  },
+  "exclude": ["plz-out", "node_modules", "**/node_modules"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noEmit": true,
+//    "paths": {
+//      "@ibmwatson/*/client": ["packages/*/client"],
+//      "@ibmwatson/*/client/mock": ["packages/*/client/mock"],
+//      "@ibmwatson/*": ["packages/*/src"]
+//    }
+  }
+}
